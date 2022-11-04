@@ -3,9 +3,4 @@
 # I did NOT build this, it is from https://www.youtube.com/watch?v=jGbP620NahE&t=2076s
 
 # Here is a screenshot:
-![Screenshot](Screenshot.png)
 ![Screenshot](/angmatcrud/src/assets/Screenshot.png)
-
-<p>
-<img src='/src/assets/Screenshot.png'>
-</p>
