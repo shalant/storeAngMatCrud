@@ -30,7 +30,11 @@ export class AppComponent implements OnInit {
   openDialog() {
     this.dialog.open(DialogComponent, {
       width:'30%'
-    });
+    }).afterClosed().subscribe(val =>{
+      if(val == 'save'){
+        this.getAllProducts();
+      }
+    })
   }
 
   getAllProducts(){
@@ -51,6 +55,23 @@ export class AppComponent implements OnInit {
     this.dialog.open(DialogComponent, {
       width:'30%',
       data: row
+    }).afterClosed().subscribe(val=>{
+      if(val == 'update'){
+        this.getAllProducts();
+      }
+    });
+  }
+
+  deleteProduct(id:number){
+    this.api.deleteProduct(id)
+    .subscribe({
+      next:(res) => {
+        alert("Product deleted successfully");
+        this.getAllProducts();
+      },
+      error:()=>{
+        alert("Error whilst deleting the record")
+      }
     })
   }
 

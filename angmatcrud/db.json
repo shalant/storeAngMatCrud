@@ -3,20 +3,11 @@
     {
       "productName": "Apple",
       "category": "Fruits",
-      "freshness": "Brand New",
-      "price": 11,
-      "comment": "yum",
-      "date": "2022-11-17T06:00:00.000Z",
-      "id": 1
-    },
-    {
-      "productName": "Mango",
-      "category": "Vegetables",
-      "freshness": "Second Hand",
-      "price": 32,
-      "comment": "sdaf",
-      "date": "2022-11-17T06:00:00.000Z",
-      "id": 2
+      "freshness": "Refurbished",
+      "price": 23,
+      "comment": "asdf",
+      "date": "2022-11-04T05:00:00.000Z",
+      "id": 3
     }
   ],
   "comments": [
