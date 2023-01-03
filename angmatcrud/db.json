@@ -8,6 +8,15 @@
       "comment": "asdf",
       "date": "2022-11-04T05:00:00.000Z",
       "id": 3
+    },
+    {
+      "productName": "Banana",
+      "category": "Fruits",
+      "freshness": "Refurbished",
+      "price": 12,
+      "comment": "Yum",
+      "date": "2023-01-03T06:00:00.000Z",
+      "id": 4
     }
   ],
   "comments": [
